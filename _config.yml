@@ -10,17 +10,19 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"  # local host
+# theme                    : "jekyll-theme-minimal"   # github host
+
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Gun1Yun's blog"
+locale                   : "ko-KR"
+title                    : "Gun1Yun's Tech Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yun Geonil"
-description              : "Storage"
+description              : ""
 url                      : "https://gun1yun.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Gun1Yun/Gun1Yun.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -52,7 +54,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
