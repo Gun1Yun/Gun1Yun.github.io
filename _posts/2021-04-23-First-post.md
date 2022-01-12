@@ -80,22 +80,23 @@ markdown은 텍스트 기반의 **마크업 언어(markup language)** 이다.
 
 ## 2.4 목록 (Lists)
 - 순서 있는 목록(정렬 목록 : Ordered list)는 숫자 기호(`0~9`)를 이용해 표현한다. 숫자 순서가 맞지 않아도 자동으로 정렬된다.  
+  
   ```
-  1. First
-    1. First in First
-    2. First in Second
-  2. Second
-  3. Third
-  5. Fourth
-  4. Fifth
-  ```  
-  1. First
-     1. First in First
-     2. First in Second
-  2. Second
-  3. Third
-  5. Fourth
-  4. Fifth
+  1. First  
+     1. First in First  
+     2. First in Second  
+  2. Second  
+  3. Third  
+  4. Fourth  
+  5. Fifth  
+  ```
+  1. First  
+     2. First in First  
+     3. First in Second  
+  1. Second  
+  2. Third  
+  3. Fourth  
+  4. Fifth  
 
 
 <details>
